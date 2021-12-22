@@ -398,7 +398,87 @@ body{
 }
 .strelamar{
     margin-top: 264px;
+    margin-left: 115px;
 }
 .header-chast3{
+    display: flex;
+}
+.actualtour-one{
+    width: 327px;
+    height: 480px;
+    margin-left: 35px;
+    background: #F8F8F8;
+}  
+.mandarina{
+    background-image: url("img/mandarina.png");
+    width: 327px;
+    height: 240px;
+    padding-top: 10px;
+}
+.text11{
+
+}
+.text12{
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.text13{
+    font-size: 16px;
+    color: grey;
+}
+.poloska3{
+    width: 280px;
+    height: 1px;
+    background: #E8E8E8;
+    margin-top: 26px;
+    margin-left: 20px;
+}
+.form-wrapper{
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 1040px;
+    height: 140px;
+    background-color: #F8F8F8;
+    border-top: 6px solid #969696;
+}
+.form_info_title{
+    display: flex;
+    align-items: center;
+}
+.form_info_title_img{
+    width: 15px;
+    height: 15px;
+}
+.form_info_title_text{
+    margin-left: 5px;
+    font-size: 14px;
+    color: rgba(34, 34, 34, 0.4);
+}
+.form_info{
+    display: flex;
+}
+.form_info_input_from{
+    box-sizing: border-box;
+    border: 1px solid rgba(46, 46, 46, 0.2);
+    width: 103px;
+    height: 50px;
+    padding-left: 20px;
+}
+.form_info_input{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.form_info_input_to{
+    display: flex;
+    width: 213px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+    background: #FFFFFF;
+    border: 1px solid rgba(46, 46, 46, 0.2);
+    border-left: none;
+}
+.form_info_input_time{
     display: flex;
 }
